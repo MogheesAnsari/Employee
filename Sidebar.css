@@ -1,0 +1,40 @@
+.sidebar {
+  width: 250px;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed; /* Make the sidebar fixed */
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Enable scrolling for the sidebar if content overflows */
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  color: #1abc9c;
+}
+
+/* Optional: Disable scrolling for the sidebar */
+.sidebar {
+  overflow-y: hidden; /* Disable scrolling */
+}

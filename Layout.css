@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+  margin-left: 250px; /* Add margin to prevent content from overlapping the sidebar */
+  height: 100vh;
+  overflow-y: auto; /* Enable scrolling for the main content */
+}
+
+
